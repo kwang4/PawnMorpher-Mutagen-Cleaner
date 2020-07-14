@@ -1,0 +1,3 @@
+E:\RimWorld\Mods\PM Mutagen remover\1.1\Assemblies\MutagenRemover.dll
+E:\RW Mods\MutagenRemover\MutagenRemover\obj\Debug\MutagenRemover.csprojResolveAssemblyReference.cache
+E:\RW Mods\MutagenRemover\MutagenRemover\obj\Debug\MutagenRemover.dll

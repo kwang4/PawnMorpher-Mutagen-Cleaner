@@ -1,0 +1,33 @@
+<Defs>
+
+
+	<!--Dry Pills-->
+	<ThingDef ParentName="PM_PillBase">
+		<defName>CleanerPills</defName>
+		<label>mutapill, cleaner</label>
+		<description>A pill that clean stabilized mechanites from a pawn's body. Useful for chaining multiple mutations quickly.</description>
+		<graphicData>
+			<texPath>Things/Item/Drug/pills-69</texPath>
+		</graphicData>
+		<statBases>
+			<WorkToMake>400</WorkToMake>
+			<MarketValue>50</MarketValue>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>LozengeProduction</researchPrerequisite>
+			<recipeUsers>
+				<li>DrugLab</li>
+				<li>MutagenLab</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<MechaniteSlurry>1</MechaniteSlurry>
+		</costList>
+		<comps>
+			<li Class="MutagenRemover.HediffCompProperties_RemoveMutagen">
+			</li>
+		</comps>
+	</ThingDef>
+
+	
+</Defs>
